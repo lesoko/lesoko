@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'CHANGE_ME'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool( os.environ.get('DJANGO_DEBUG', False) )
+DEBUG = bool( os.environ.get('DJANGO_DEBUG', False))
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', 'www.lesoko.com']
 
 # Application definition
 
